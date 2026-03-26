@@ -1,4 +1,5 @@
 import Sidebar from "../components/Sidebar.jsx";
+import DashboardChart from "./DashboardChart.jsx";
 
 function Dashboard() {
   return (
@@ -8,14 +9,12 @@ function Dashboard() {
       <div className="flex-grow-1 p-4">
         <h2 className="mb-4">Dashboard</h2>
 
-        {/* Welcome Card */}
         <div className="card shadow-sm mb-4">
           <div className="card-body">
-            <p className="mb-0">Welcome to Admin Dashboard</p>
+            <DashboardChart />
           </div>
         </div>
 
-        {/* Stats Cards */}
         <div className="row g-3">
 
           <div className="col-12 col-sm-6 col-lg-4">
